@@ -4,6 +4,7 @@ import Image from 'next/image'
 function Vision() {
   return (
     <div>
+      <div className =" bg-no-repeat bg-center bg-cover w-full h-[835px] bg-[url('../public/background2.jpg')]">
       <div className='flex flex-col items-center justify-center w-full lg:mb-[80px]'>
         <p className='text-[14px] lg:text-[#0479CE] md:text-[#0479CE] text-white bg-[#FB491D] md:bg-transparent lg:p-0 md:p-0 p-3 rounded-3xl lg:bg-transparent text-center font-jost lg:w-[444px] md:w-[400px] w-[262px] uppercase lg:mb-0 md:mb-0 mb-2'>Welcome to Heartfulness International Sports Center</p>
         <div className='flex flex-col items-center justify-center w-[315px] h-[374px] lg:bg-transparent md:bg-transparent bg-blue-50 rounded-[40px]'>
@@ -34,8 +35,12 @@ function Vision() {
 
       </div>
 
+      </div>
+      
 
-    </div>
+
+      
+          </div>
   )
 }
 
