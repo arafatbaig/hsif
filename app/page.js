@@ -1,6 +1,13 @@
 import Image from 'next/image'
 import Navbar from '@/components/Navbar'
-import Footer from '@/components/Footer'
+import About from'./about/page';
+import Link from 'next/link';
+import Begin from '@/components/Begin';
+import Team from '@/components/Team';
+import Vision from '@/components/About';
+import Facilities from '@/components/Facilities';
+
+
 export default function Home() {
   return (
     <div>
@@ -9,6 +16,7 @@ export default function Home() {
             <div className="ml-10 mr-10 sm:ml-10 sm:mr-10 md:ml-20 md:mr-20 " >
 
               <Navbar/>
+             
 
               <div className="mt-48 flex flex-col  items-center justify-center align-center   md:items-start  ">
                 
@@ -37,9 +45,13 @@ export default function Home() {
         </div> 
        
         
-      </div> 
-      <Footer/>
-    
+      </div>
+      <Begin/>
+      <Team/>
+      <Vision/>
+      <Facilities/>
+       
+      
      
 
     </div>
