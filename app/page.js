@@ -1,12 +1,7 @@
 import Image from 'next/image'
 import Navbar from '@/components/Navbar'
-import About from'./about/page';
 import Link from 'next/link';
-import Begin from '@/components/Begin';
-import Team from '@/components/Team';
-import Vision from '@/components/About';
-import Facilities from '@/components/Facilities';
-
+import About from '@/components/About';
 
 export default function Home() {
   return (
@@ -46,12 +41,7 @@ export default function Home() {
        
         
       </div>
-      <Begin/>
-      <Team/>
-      <Vision/>
-      <Facilities/>
-       
-      
+      <About/>     
      
 
     </div>
